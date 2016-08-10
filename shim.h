@@ -8,6 +8,7 @@
 #import "/usr/local/opt/libarchive/include/archive.h"
 #import "/usr/local/opt/libarchive/include/archive_entry.h"
 #else
+#import "/usr/include/x86_64-linux-gnu/sys/types.h"
 #import "/usr/include/archive.h"
 #import "/usr/include/archive_entry.h"
 #endif // __APPLE__
